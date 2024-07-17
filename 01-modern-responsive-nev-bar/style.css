@@ -19,7 +19,7 @@ nav > p{
 .pages{
     float: right;
     list-style: none;
-    margin-right: 180px;
+    margin-right: 200px;
     margin-top: -38px;
 }
 
@@ -32,3 +32,45 @@ nav > p{
     color: #000;
     font-size: 18px;
 }
+.auth{
+    float:right;
+    list-style-type:none;
+    margin-top: -34px;
+    margin-right: 60px;
+}
+.auth > li{
+    float: left;
+    margin-left: 30px;
+    /* margin-top: -100; */
+}
+.auth>li>i{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search-box{
+    /* height: 50px;
+    width: 250px; */
+    padding: 10px;
+    background-color: #ffffff;
+    float: right;
+    margin-right: 7%;
+    margin-top: 5px;
+    border-radius: 6px;
+    display: none;
+}
+.search-box > i{
+    float: right;
+    margin-top:4px;
+    cursor: pointer;
+}
+
+.search-box > input{
+    height: 25px;
+    width: 200px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding-left: 5px;
+    margin:0 25px ;
+}   
