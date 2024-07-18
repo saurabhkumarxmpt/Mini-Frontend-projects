@@ -48,7 +48,7 @@ nav > p{
     cursor: pointer;
 }
 
-.search-box{
+#search_box{
     /* height: 50px;
     width: 250px; */
     padding: 10px;
@@ -57,7 +57,7 @@ nav > p{
     margin-right: 7%;
     margin-top: 5px;
     border-radius: 6px;
-    display: none;
+    display:none;
 }
 .search-box > i{
     float: right;
@@ -74,3 +74,47 @@ nav > p{
     padding-left: 5px;
     margin:0 25px ;
 }   
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    nav{
+        height: 50px;
+    }
+    nav>p{
+        font-size: 18px;
+        padding:15px 28px;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .auth{
+        margin-left: 67%;
+        margin-top: -33px;
+        position: absolute;
+        width: 100%;
+    }
+    .auth>li>i{
+        font-size: 14px;
+    }
+    .auth>li{
+        margin-left:21px;
+    }
+    .pages{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin: 0;
+        display: none;
+        position: relative;
+    }
+    .pages>li{
+        width: 100%;
+        margin: 0;
+        /* margin-top: 10px; */
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }
