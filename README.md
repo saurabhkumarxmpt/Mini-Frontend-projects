@@ -1,2 +1,2 @@
 # Mini-Frontend-projects
-in this repo i  make many small and many large projects
+This repository contains a collection of mini front-end projects built using HTML, CSS, and JavaScript. Explore these projects to improve your web development skills and learn new techniques
